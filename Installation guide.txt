@@ -1,0 +1,10 @@
+In this file you can find a simple installation guide aiming to help you run my project.
+
+1. Clone the project
+2. Navigate to root folder
+3. Open Git Bash in the directory
+4. run the following command: 'npm i'
+   //this will install locally all packages used in the application
+5. Open a terminal in the same directory
+6. Run the following command: 'npm start'
+7. Open your browser on localhost:4200/
