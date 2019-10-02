@@ -1,3 +1,19 @@
-<p>
-  navigation works!
-</p>
+<h3 class="text">Interested to find out more about crimes in NFL? You came to the right place!</h3>
+
+<div>
+  
+<mat-menu #appMenu="matMenu">
+  <button mat-menu-item routerLink="/crimes">Top crimes</button>
+  <button mat-menu-item routerLink="/players">Top players</button>
+  <button mat-menu-item routerLink="/teams">Top teams</button>
+</mat-menu>
+
+<button mat-icon-button [matMenuTriggerFor]="appMenu" class="icon">
+  See stats
+  <mat-icon></mat-icon>
+</button>
+</div>
+
+<!-- <div>
+<img src="http://nflarrest.com/images/preview.png?cache=710" alt="Italian Trulli" class="image">
+</div> -->

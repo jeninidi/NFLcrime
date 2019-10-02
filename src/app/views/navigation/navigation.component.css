@@ -1,0 +1,21 @@
+.icon{
+    width: 250px;
+    height: 75px;
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #c88a1a;
+    border-radius: 0;
+}
+.text{
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    left: 25%;
+    top: 75px;
+}
+
+.image{
+    height: 300px;
+    position: relative;
+    left: 30%;
+}

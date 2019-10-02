@@ -15,6 +15,7 @@ import { NavigationComponent } from './views/navigation/navigation.component';
 import { CrimesComponent } from './views/crimes/crimes.component';
 import { PlayersComponent } from './views/players/players.component';
 import { TeamsComponent } from './views/teams/teams.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { TeamsComponent } from './views/teams/teams.component';
     MatNativeDateModule,
     MaterialModule,
     MatListModule,
-    MatTableModule
+    MatTableModule,
+    BrowserAnimationsModule
   ],
   providers: [AppComponent],
   bootstrap: [AppComponent]
