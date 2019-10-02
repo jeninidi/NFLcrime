@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'NFLcrime';
+  private apiURL = 'http://nflarrest.com/api/v1/';
+  data: any = {};
+
+  constructor(){
+  }
+
 }
